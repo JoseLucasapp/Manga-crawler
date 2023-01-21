@@ -3,11 +3,15 @@ dotenv.config()
 
 import express from "express";
 import cors from 'cors'
+import { routes } from './routes/amazon'
 
 const app = express()
-const routes = express.Router()
+const router = express.Router()
 
 app.use(express.json())
 app.use(cors())
+app.use(router)
+
+routes(router)
 
 app.listen(3000)
