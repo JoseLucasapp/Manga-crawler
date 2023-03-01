@@ -1,5 +1,5 @@
 {
-  "name": "Amazon-products-crawler",
+  "name": "Manga-products-crawler",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JoseLucasapp/Amazon-products-crawler.git"
+    "url": "git+https://github.com/JoseLucasapp/Manga-products-crawler.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JoseLucasapp/Amazon-products-crawler/issues"
+    "url": "https://github.com/JoseLucasapp/Manga-products-crawler/issues"
   },
-  "homepage": "https://github.com/JoseLucasapp/Amazon-products-crawler#readme",
+  "homepage": "https://github.com/JoseLucasapp/Manga-products-crawler#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",

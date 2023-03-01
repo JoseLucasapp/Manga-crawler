@@ -1,4 +1,4 @@
-import { getProducts } from '../controllers/amazon'
+import { getProducts } from '../controllers/hq'
 
 const routes = async (router) => {
     router.get('/', getProducts)

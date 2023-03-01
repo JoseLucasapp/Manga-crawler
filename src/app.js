@@ -3,7 +3,7 @@ dotenv.config()
 
 import express from "express";
 import cors from 'cors'
-import { routes } from './routes/amazon'
+import { routes } from './routes/hq'
 
 const app = express()
 const router = express.Router()

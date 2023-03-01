@@ -1,4 +1,4 @@
-import { puppeteerFunction } from '../service/amazon'
+import { puppeteerFunction } from '../service/hq'
 
 const getProducts = async (req, res) => {
     try {
